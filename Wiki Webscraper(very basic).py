@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+
 # Used to display the text of any wiki page the user enters the url of.
 
 
