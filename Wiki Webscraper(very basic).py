@@ -42,7 +42,7 @@ def main():  # Main
                 cont = False
                 break
             else:
-                print('Please choose yes to proceed or no to exit')
+                print('Please choose yes to proceed or no to exit.')
 
 
 main()
