@@ -27,13 +27,18 @@ def crypto_tracker():
     xmr_price = xmr_info['USD']
 
     # prints the price with date and time.
+    print()
+    print("-"*60)
+    print()
     print(datetime.now().strftime('%D %H:%M:%S'), f'BTC PRICE:${btc_price}\n')
     print(datetime.now().strftime('%D %H:%M:%S'), f'BAT PRICE:${bat_price}\n')
     print(datetime.now().strftime('%D %H:%M:%S'), f'ETH PRICE:${eth_price}\n')
     print(datetime.now().strftime('%D %H:%M:%S'), f'XMR PRICE:${xmr_price}\n')
-
+    print("-"*60)
 
 # Main function
+
+
 def main():
     crypto_tracker()
     while True:
